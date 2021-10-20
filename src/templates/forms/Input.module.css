@@ -1,0 +1,15 @@
+.divInputValues {
+    display: flex;
+    justify-content: center;
+}
+
+.divInputValues label {
+    padding: 8px;
+}
+
+.divInputValues input {
+    width: 40vh;
+    height: 30px;
+    border-radius: 27px;
+    border: 1px solid #403e85
+}
