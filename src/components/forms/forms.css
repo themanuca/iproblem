@@ -1,0 +1,78 @@
+body{
+    background-image: url('../../assets/c97d2a112398515.602d662ba6787.jpg');
+    background-size: 100%;
+}
+
+.form * {
+    padding-bottom: 10px;
+}
+
+
+
+fieldset{
+    border: 0;
+}
+
+.nome label {
+    font-size: 30px;
+    display: block;
+    text-shadow:3px 2px black;
+}
+
+.nome input{
+    border-radius: 5px;
+    width: 60vh;
+    height: 3vh;
+    box-shadow:5px 5px 10px black;
+}
+
+.sala label {
+    font-size: 30px;
+    display: block;
+    text-shadow:3px 2px black;
+
+}
+
+.sala input{
+    border-radius: 5px;
+    width: 60vh;
+    height: 3vh;
+    box-shadow:5px 5px 10px black;
+}
+
+.categoria label{
+    font-size: 30px;
+    display: block;
+    text-shadow:3px 2px black;
+
+}
+
+.categoria select{
+    border-radius: 5px;
+    width: 60vh;
+    height: 5%;
+    box-shadow:5px 5px 10px black;
+}
+
+.texto label{
+    font-size: 30px;
+    display: block;
+    text-shadow:3px 2px black;
+
+}
+
+.texto textarea{
+    border-radius: 5px;
+    width: 60vh;
+    height: 10vh;
+    box-shadow:5px 5px 10px black;
+}
+
+.btn-envia{
+    box-shadow:5px 5px 10px black;
+    padding:20px 40px;
+    background-color:#392754;
+    color:white;
+    font-weight: bold;
+    font-size: 12px;
+}
