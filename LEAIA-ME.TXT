@@ -1,0 +1,3 @@
+LINK PARA SOLUÇÃO DE ROTAS: "https://www.youtube.com/watch?v=6h5AijDZAtc&t=40s"
+
+STARTANDO O PROJETO COM: "npm run dev"

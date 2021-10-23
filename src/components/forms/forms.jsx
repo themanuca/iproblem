@@ -2,7 +2,7 @@ import "./forms.css";
 import { useState } from 'react';
 import Input from "../../templates/forms/Input";
 import Select from "../../templates/forms/Select";
-
+import api from '../../api';
 
 function Forms(){
 
@@ -20,7 +20,7 @@ function Forms(){
         const formData = new FormData(e.target); //torna em objeto e acessam o evento de target desse objeto
         const data = Object.fromEntries(formData); // jogo os dados do "target" capturado do objeto de cima, em uma variavel.
 
-        // console.log(data);
+        const response = api.post('/api/repost', data);
     }
 
     console.log(formValues);
